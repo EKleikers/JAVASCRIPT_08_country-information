@@ -1,10 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <title>Title</title>
+    </head>
+    <body>
+    <div class="container">
+        <div class="container1">
+            <label type='text' id="titel">Let's search some country information</label>
+            <br/>
+            <img id=globe src="assets/globe.png"></img>
+            <br/>
+            <br/>
+            <div class="container3">
+                <input type="text" id="input_search"></input>
+                <button type="button" id="btn_search">SEARCH</button>
+            </div>
+            <br/>
+            <br/>
+        </div>
+        <div class="container2">
+            <img id=flag ></img>
+            <label type='text' id="land">  </label>
+            <br/>
+            <hr class="line">
+            <label type='text' id="sentence1"></label>
+            <br/>
+            <label type='text' id="sentence2"></label>
+            <br/>
+            <label type='text' id="sentence3"></label>
+            <br/>
+        </div>
 
-</body>
+    </div>
+        <script src="node_modules/axios/dist/axios.min.js"></script>
+        <script src="main.js"></script>
+    </body>
 </html>
