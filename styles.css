@@ -1,0 +1,61 @@
+.container {
+    width: 800px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container1 {
+    width : 550px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container2 {
+    width : 350px;
+    border-color: lightgray;
+    text-align: left;
+    border-width: 2px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    padding:25px;
+}
+
+#globe {
+    width:250px;
+}
+#flag {
+    width:40px;
+    padding-right: 30px;
+    /*border-color: #333333;*/
+    /*border-width: 5px;*/
+}
+#titel {
+    font-family: "Bradley Hand";
+    font-weight: bolder;
+    font-size: 30px;
+}
+#land {
+    font-family: "Bradley Hand";
+    font-weight: bold;
+    font-size: 25px;
+}
+
+label{
+ font-family: "Avenir Next Condensed";
+    font-size: 12px;
+}
+
+button{
+    background-color: yellowgreen;
+}
+
+.line{
+    border: 0;
+    height: 1px;
+    width: 300px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+}
